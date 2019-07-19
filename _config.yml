@@ -21,7 +21,7 @@ NickName: 'SakuraCassis'
 #webtitle: 'your awesome webtitle'
 #bio: 'your awesome bio'
 about: true
-aboutyou: 'your introduction'
+aboutyou: '哈工大数学系'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
