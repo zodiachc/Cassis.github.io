@@ -1,6 +1,5 @@
-
 # Site settings 配置站点
-title: 'Math Note'
+title: 'MathNote'
 description: 'Some notes for math'
 keywords: 'Math, algebra, analysis'
 url: 'https://sakuracassis.github.io' # your host
