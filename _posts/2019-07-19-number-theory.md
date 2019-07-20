@@ -8,8 +8,6 @@ color: rgb(255,90,90)
 
 ### Some Basics in Number Theory
 
-Content:
-[TOC]
 ##### Division Algorithm
 
 **Axiom**:[Well-ordering Principle]
