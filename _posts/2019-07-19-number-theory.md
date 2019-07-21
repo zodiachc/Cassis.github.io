@@ -38,14 +38,14 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 
 >**Theorem**:[Division Algorithm]
 >
->Given integers a and b with a $\neq$ 0, there exist unique integers q and r with $b=q a+r $ and $ 0 \leq r<|a|$
+>Given integers a and b with a $\neq$ 0, there exist unique integers q and r with $b=q a+r $ and $ 0 \leq r<\|a\|$
 >
 
 ### <a name="2"> 2.Units and Primes</a>
 
 >**Def** : We say that an integer $p$ is **irreducible** if it is not a unit, and if it has no factors other than $\pm 1, \pm p$.
 >
->We say that an integer $p$ is **prime** if it is not a unit and if it has the following property: if $p | a b$ then either $p | a$ or $p | b .$
+>We say that an integer $p$ is **prime** if it is not a unit and if it has the following property: if $p | a b$ then either $p \| a$ or $p \| b .$
 
 > **Prop**: An integer p is irreducible if and only if it is prime.
 
