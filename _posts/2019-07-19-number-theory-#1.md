@@ -4,7 +4,7 @@ title:  "Number Theory #1"
 date:   2019-07-19 22:02:21 +0800
 tags: NumberTheory
 color: rgb(255,90,90)
-cover:'../assets/num1.png'
+cover:'../assets/num1.PNG'
 ---
 ## Some Basics 
 + <a href="#1"> 1.Division Algorithm</a>
