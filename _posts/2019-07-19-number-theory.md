@@ -5,6 +5,7 @@ date:   2019-07-19 22:02:21 +0800
 tags: NumberTheory
 color: rgb(255,90,90)
 ---
+#Number Theory
 
 ## Some Basics 
 + <a href="#1"> 1.Division Algorithm</a>
@@ -62,29 +63,36 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 
 We have the following facts.
 > $(a,b)=(|a|,|b|); (0,b)=|b|.$
+>
 > $(a,q)=1, (b,q)=1, then (ab,q)=1.$
-> $(a,b)=1$, $b\mid ax$, then $b\mid x.$
+>
+> $(a,b)=1$, $b\mid ax$, then  $b\mid x.$
+>
 > $ab=[a,b](a,b)$
+>
 > Suppose that $q_{1}, \ldots, q_{k}$ are pairwise coprime. Then $q_{1} \cdots q_{k}$ divides $x$ if and only if qi divides $x$ for $i=1, \ldots, k$
-> a,b,c is nonzore integers, $a=bq+c$, then $(a,b)=(b,c)$
+>
+> $a,b,c$ is nonzero integers, $a=bq+c$, then $(a,b)=(b,c)$
 
 > **Thm**: [Euclid's Algorithm]
 > Suppose that a, b are integers. Then there is an algorithm that finds the gcd, $d = (a, b)$, and there is an algorithm that finds a pair of integers s and t with$ d = sa + tb.$ 
 
 > **Thm**:[Prime Factor Decomposition of n!]
+>
+> 
 > $$
 > n!=\displaystyle\prod_{p\leq n}p^{\displaystyle\sum_{r=1}^\infty\left[\frac{n}{p^r}\right]}
 > $$
-> 
 >
+> 
 
 ### <a name= "4">4.Diophantine Equations</a>
 
 > **Thm**: Suppose that $a, b, c$ are integers with $a, b \neq 0$. Then there is
-> a solution to the equation ==$am + bn = c$== in integers $m, n$ if and only if $ (a, b)|c.$
+> a solution to the equation $am + bn = c$ in integers $m, n$ if and only if $ (a, b)|c.$
 
 > **Prop**: 	Suppose that $a, b, c, d$ are integers with $a, b, c \neq 0$. Then there is
-> a solution to the equation ==$am + bn +cl = d$== in integers $m, n, l$ if and only if $(a, b. c)|d$.
+> a solution to the equation $am + bn +cl = d$ in integers $m, n, l$ if and only if $(a, b. c)|d$.
 
 
 > **Lemma**: 不定方程 $uv=w^2\ u,v,w>0; (u,v)=1$ 的一切正整数解可以写成$u:v:w=a^2:b^2:ab; a,b>0; (a,b)=1$ 
@@ -93,4 +101,10 @@ We have the following facts.
 > $$ x:y:z=2ab:a^2-b^2:a^2+b^2 \ a>b>0, (a,b)=1 ,\ a,b \text{ one odd one even}$$
 
 > **Thm**: $x^4+y^4=z^4$没有正整数解。
+
+##Modular Arithmetic and $\mathbb{Z}/p\mathbb{Z}$
+
++ <a href="#5">1.Modular Arithmetic </a>
+
+### <a name="5">1.Modular Arithmetic </a>
 
