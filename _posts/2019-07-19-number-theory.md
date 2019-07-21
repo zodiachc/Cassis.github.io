@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  "Number Theory"
+title:  "Number Theory #1"
 date:   2019-07-19 22:02:21 +0800
 tags: NumberTheory
 color: rgb(255,90,90)
 ---
-#Number Theory
-
 ## Some Basics 
 + <a href="#1"> 1.Division Algorithm</a>
 + <a href="#2"> 2.Units and Primes</a>
@@ -102,9 +100,5 @@ We have the following facts.
 
 > **Thm**: $x^4+y^4=z^4$没有正整数解。
 
-##Modular Arithmetic and $\mathbb{Z}/p\mathbb{Z}$
-
-+ <a href="#5">1.Modular Arithmetic </a>
-
-### <a name="5">1.Modular Arithmetic </a>
+### 
 
