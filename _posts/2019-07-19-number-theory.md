@@ -9,7 +9,7 @@ color: rgb(255,90,90)
 ## Some Basics 
 + <a href="#1"> 1.Division Algorithm</a>
 + <a href="#2"> 2.Units and Primes</a>
-
++ <a href="#3"> 3.GDC</a>
 ### <a name="1"> 1.Division Algorithm</a>
 
 >**Axiom**:[Well-ordering Principle]
@@ -38,46 +38,55 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 
 >**Theorem**:[Division Algorithm]
 >
->Given integers a and b with a $\neq$ 0, there exist unique integers q and r with $b=q a+r $ and $ 0 \leq r<\|a\|$
+>Given integers a and b with a $\neq$ 0, there exist unique integers q and r with $b=q a+r $ and $ 0 \leq r< \mid a \mid$
 >
 
 ### <a name="2"> 2.Units and Primes</a>
 
 >**Def** : We say that an integer $p$ is **irreducible** if it is not a unit, and if it has no factors other than $\pm 1, \pm p$.
 >
->We say that an integer $p$ is **prime** if it is not a unit and if it has the following property: if $p \| a b$ then either $p \| a$ or $p \| b .$
+>We say that an integer $p$ is **prime** if it is not a unit and if it has the following property: if $p \mid a b$ then either $p \mid a$ or $p \mid b .$
 
 > **Prop**: An integer p is irreducible if and only if it is prime.
 
+> **Prop**: Every integer $n \geq 2$ is either a prime or a product of primes
 
+> **Cor**: There are infinitely many primes.
 
+> **Thm**:[Fundamental Theorem of Arithmetic] Every integer other than zero and the units may be factored into primes in an essentially unique way.
+
+### <a name="3">3.GDC</a>
+
+> **Def**: If a, b are integers then the **greatest common divisor (GCD)** of a and b, written (a, b), is the greatest positive integer d such that $d\mid a$ and $d\mid  b$.
+
+We have the following facts.
+> $(a,b)=(|a|,|b|); (0,b)=|b|.$
+> $(a,q)=1, (b,q)=1, then (ab,q)=1.$
+> $(a,b)=1$, $b\mid ax$, then $b\mid x.$
+> $ab=[a,b](a,b)$
+> Suppose that $q_{1}, \ldots, q_{k}$ are pairwise coprime. Then $q_{1} \cdots q_{k}$ divides $x$ if and only if qi divides $x$ for $i=1, \ldots, k$
+> a,b,c is nonzore integers, $a=bq+c$, then $(a,b)=(b,c)$
+
+> **Thm**: [Euclid's Algorithm]
+> Suppose that a, b are integers. Then there is an algorithm that finds the gcd, $d = (a, b)$, and there is an algorithm that finds a pair of integers s and t with$ d = sa + tb.$ 
+
+> **Thm**:[Prime Factor Decomposition of n!]
+> $$
+> n!=\displaystyle\prod_{p\leq n}p^{\displaystyle\sum_{r=1}^\infty\left[\frac{n}{p^r}\right]}
+> $$
+> 
+>
+
+### <a name= "4">4.Diophantine Equations</a>
+
+> **Thm**: Suppose that a, b, c are integers with $a, b \neq 0$. Then there is
+> a solution to the equation $am + bn = c$ in integers $m, n$ if and only if $ (a, b)|c.$
 
 
 > **Lemma**: 不定方程 $uv=w^2\ u,v,w>0; (u,v)=1$ 的一切正整数解可以写成$u:v:w=a^2:b^2:ab; a,b>0; (a,b)=1$ 
 
-> **Thm**: Solution of $x^2+y^2=z^2$ with $x,y,z>0\ (x,y)=1, 2|x$ can be written by
+> **Thm**: Solution of $x^2+y^2=z^2$ with $x,y,z>0\ (x,y)=1, 2\mid x$ can be written by
 > $$ x:y:z=2ab:a^2-b^2:a^2+b^2 \ a>b>0, (a,b)=1 ,\ a,b \text{ one odd one even}$$
 
 > **Thm**: $x^4+y^4=z^4$没有正整数解。
 
-Proof: 只需证明$x^4+y^4=z^2$没有正整数解。
-
-反证法，若存在正整数解，设$z$的解集中$u$是最小一个，此时 $$x^4+y^4=u^2, (x,y)=1, x\text{偶}，y\text{奇}$$
-thm
-$$x^2=2ab,y^2=a^2-b^2,u^2=a^2+b^2$$
-$$a>b>0, (a,b)=1, a\text{奇}，b\text{偶}$$ 
-{不然设$b=2b_1+1, a=2a_1$,$y^2$mod$4=(4(a_1^2-b_1^2-b_1)-1)${mod}$4=3$, 与$y$奇数矛盾}
-
-设$b=2c$，有
-$$(x/2)^2=ac$$
-lemma
-$$a=d^2, c=f^2$$
-代入可知$y^2=d^4-4f^4$
-$$(2f^2)^2+(y^2)^2=(d^2)^2$$
-thm
-$$2f^2=2lm, d^2=l^2+m^2$$
-lemma
-$$l=r^2, m=s^2$$
-所以有
-$$d^2=r^4+s^4$$
-但 $d<u$ 矛盾。
