@@ -10,6 +10,7 @@ color: rgb(255,90,90)
 + <a href="#1"> 1.Division Algorithm</a>
 + <a href="#2"> 2.Units and Primes</a>
 + <a href="#3"> 3.GDC</a>
++ <a href="#4"> 4.Diophantine Equations</a>
 ### <a name="1"> 1.Division Algorithm</a>
 
 >**Axiom**:[Well-ordering Principle]
@@ -38,7 +39,7 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 
 >**Theorem**:[Division Algorithm]
 >
->Given integers a and b with a $\neq$ 0, there exist unique integers q and r with $b=q a+r $ and $ 0 \leq r< \mid a \mid$
+>Given integers $a$ and $b$ with $a \neq$ 0, there exist unique integers $q$ and r with $b=q a+r $ and $ 0 \leq r< \vert a\vert$
 >
 
 ### <a name="2"> 2.Units and Primes</a>
@@ -79,8 +80,11 @@ We have the following facts.
 
 ### <a name= "4">4.Diophantine Equations</a>
 
-> **Thm**: Suppose that a, b, c are integers with $a, b \neq 0$. Then there is
-> a solution to the equation $am + bn = c$ in integers $m, n$ if and only if $ (a, b)|c.$
+> **Thm**: Suppose that $a, b, c$ are integers with $a, b \neq 0$. Then there is
+> a solution to the equation ==$am + bn = c$== in integers $m, n$ if and only if $ (a, b)|c.$
+
+> **Prop**: 	Suppose that $a, b, c, d$ are integers with $a, b, c \neq 0$. Then there is
+> a solution to the equation ==$am + bn +cl = d$== in integers $m, n, l$ if and only if $(a, b. c)|d$.
 
 
 > **Lemma**: 不定方程 $uv=w^2\ u,v,w>0; (u,v)=1$ 的一切正整数解可以写成$u:v:w=a^2:b^2:ab; a,b>0; (a,b)=1$ 
