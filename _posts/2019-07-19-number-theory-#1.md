@@ -96,7 +96,7 @@ We have the following facts.
 > **Lemma**: 不定方程 $uv=w^2\ u,v,w>0; (u,v)=1$ 的一切正整数解可以写成$u:v:w=a^2:b^2:ab; a,b>0; (a,b)=1$ 
 
 > **Thm**: Solution of $x^2+y^2=z^2$ with $x,y,z>0\ (x,y)=1, 2\mid x$ can be written by
-> $ x:y:z=2ab:a^2-b^2:a^2+b^2 \ a>b>0, (a,b)=1 ,$ $a,b$ one odd one even
+> $ x:y:z=2ab:a^2-b^2:a^2+b^2 $ $ a>b>0, (a,b)=1 ,$ $a,b$ one odd one even
 
 > **Thm**: $x^4+y^4=z^4$没有正整数解。
 
