@@ -11,6 +11,7 @@ color: rgb(255,90,90)
 + <a href="#3"> 3.GDC</a>
 + <a href="#4"> 4.Diophantine Equations</a>
 +  <a href="#5">5.Modular Arithmetic and $\mathbb{Z}/p\mathbb{Z}$</a>
+
 ### <a name="1"> 1.Division Algorithm</a>
 
 >**Axiom**:[Well-ordering Principle]
@@ -123,7 +124,7 @@ integers Z to a ring called $\mathbb{Z}/p\mathbb{Z}$.
 
 > **Def**: $(\mathbb{Z} / q \mathbb{Z})^{ \times} :=\{x+q \mathbb{Z} \in \mathbb{Z} / q \mathbb{Z} :(x, q)=1\}$
 
-We can see $|(\mathbb{Z} / q \mathbb{Z})^{ \times}|=\varphi(q)$, where $q=p_1^{a_1}p_2^{a_2}\ldots p_k^{a_k}. \varphi(q)=q\left(1-\frac{1}{p_1}\right)\left(1-\frac{1}{p_2}\right)\ldots\left(1-\frac{1}{p_k}\right).$
+We can see $\|(\mathbb{Z} / q \mathbb{Z})^{ \times}\|=\varphi(q)$, where $q=p_1^{a_1}p_2^{a_2}\ldots p_k^{a_k}. \varphi(q)=q\left(1-\frac{1}{p_1}\right)\left(1-\frac{1}{p_2}\right)\ldots\left(1-\frac{1}{p_k}\right).$
 
 One of our main aims is to prove the following result.
 
