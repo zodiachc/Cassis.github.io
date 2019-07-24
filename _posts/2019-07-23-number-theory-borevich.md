@@ -103,7 +103,7 @@ Its discriminant $a c-b^{2}$ we denote by $d$.
 > $$
 > has a nonzero solution if and only if $-d$ is either divisible by $p$ or is a quadratic residue modulo $p$ . i.e. $\left(\frac{-d}{p}\right)=0\ or 1$
 
-### Trigonometirc Sums
+### Trigonometric Sums
 
 #### Congruences and Trigonometric Sums
 
@@ -116,12 +116,30 @@ We first note that for the equation $F\left(x_{1}, \ldots, x_{n}\right)=0$ to ha
 > $$
 > F\left(x_{1}, \ldots, x_{n}\right) \equiv 0(\bmod p)
 > $$
-> is solvable for all prime numbers $p,$ larger than some bound which depends
-> only on the polynomial $F $ .
+> is solvable for all prime numbers $p,$ larger than some bound which depends only on the polynomial $F $ .
+
+> **Theorem** B. The number $N(F, p)$ of solutions of the congruence $(5)$ satisfies the inequality
+> $$
+> \left|N(F, p)-p^{n-1}\right|<C(F) p^{{n-1}-(1 / 2)}
+> $$
+> where the constant $C(F)$ depends only on the polynomial $F$ and not on $p$  
+
+
 
 ### $p$-Adic Numbers
 
 #### $p$-Adic Integers
+
+> **Definition**. Let $p$ be some prime number. A sequence of integers
+> $$
+> \left\{x_{n}\right\}=\left\{x_{0}, x_{1}, \ldots, x_{n}, \ldots\right\}
+> $$
+> satisfying
+> $x_{n} \equiv x_{n-1}\left(\bmod p^{n}\right)$
+>
+> for all $n \geqslant 1,$ determines an object called a p-adic integer.
+
+
 
 #### The Ring of $p$ -Adic Integers
 
@@ -131,9 +149,17 @@ We first note that for the equation $F\left(x_{1}, \ldots, x_{n}\right)=0$ to ha
 
 ### An Axiomatic Characterization of the Field of $p$ -Adic Numbers
 
+### Congruences and p-adic Integers
+
+#### Congruences and Equations in the Ring $O_{p}$
+
+  
+
 
 
 ### Quadratic Forms with $p$ - Adic coefficients
+
+
 
 ### Rational Quadratic Forms
 

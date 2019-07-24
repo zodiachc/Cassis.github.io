@@ -7,7 +7,7 @@ color: rgb(255,90,90)
 
 ---
 
-## Congruence Equation
+# Congruence Equation
 
 + General Congruence 
 + Linear Congruence
@@ -48,9 +48,9 @@ $$
 $$
 
 > **Thm**: 设$m_1, m_2, ... ,m_k$是正整数数，$(m_i,m_j)=1$, \\ 记$m=m_1m_2...m_k, M_i=\frac{m}{m_i}$, 则存在整数$M_i', st$
-> 	$$M_iM_i'\equiv1(\bmod m_i)$$
-> 	$$M_iM_i'\equiv0(\bmod m_j)$$
-> 	且 $$x_0\equiv \sum_{i=1}^{k} a_{i} M_{i} M_{i}^{\prime}(\bmod m)$$是同余方程组对模$m$的唯一解。
+> ​	$$M_iM_i'\equiv1(\bmod m_i)$$
+> ​	$$M_iM_i'\equiv0(\bmod m_j)$$
+> ​	且 $$x_0\equiv \sum_{i=1}^{k} a_{i} M_{i} M_{i}^{\prime}(\bmod m)$$是同余方程组对模$m$的唯一解。
 
 > **Thm**: 同余方程组有解的充要条件为 $a_{i} \equiv a_{j}\left(\bmod \left(m_{i}, m_{j}\right)\right), 1 \leqslant i, j \leqslant n$
 
@@ -75,7 +75,7 @@ $$
 > **Thm**: 同余方程$f(x)\equiv0(\bmod p)$的解数$\leq n$.
 
 > **Thm**: 设$n\leq p$，则同余方程$f(x)=x^n+\ldots+a_1x+a_0\equiv 0(mod p)$有$n$个解的充要条件是存在整系数多项式$q(x)，r(x)$，使得
-> 	$$x^{p}-x=f(x) q(x)+p \cdot r(x)$$
+> ​	$$x^{p}-x=f(x) q(x)+p \cdot r(x)$$
 
 > **Thm**: 若$p$是素数，$n\mid p-1, p\nmid a$ 则 $x^n\equiv a(\bmod p)$ 有解的充要条件为 $a^{\frac{p-1}{n}}\equiv1(\bmod p)$ ; 有解时，解数为$n$.
 
