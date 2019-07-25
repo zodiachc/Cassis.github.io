@@ -120,7 +120,7 @@ We first note that for the equation $F\left(x_{1}, \ldots, x_{n}\right)=0$ to ha
 
 > **Theorem** B. The number $N(F, p)$ of solutions of the congruence $(5)$ satisfies the inequality
 > $$
-> \left|N(F, p)-p^{n-1}\right|<C(F) p^{{n-1}-(1 / 2)}
+> \left|N(F, p)-p^{n-1}\right|<C(F) p^{n-1-(1 / 2)}
 > $$
 > where the constant $C(F)$ depends only on the polynomial $F$ and not on $p$  
 

@@ -5,14 +5,14 @@ date:   2019-07-19 22:02:21 +0800
 tags: NumberTheory
 color: rgb(255,210,32)
 ---
-## Some Basics 
+# Some Basics 
 + <a href="#1"> 1.Division Algorithm</a>
 + <a href="#2"> 2.Units and Primes</a>
 + <a href="#3"> 3.GDC</a>
 + <a href="#4"> 4.Diophantine Equations</a>
-+  <a href="#5">5.Modular Arithmetic and $\mathbb{Z}/p\mathbb{Z}$</a>
++  <a href="#5">5.Modular Arithmetic and </a>
 
-### <a name="1"> 1.Division Algorithm</a>
+### <a name="1"> Division Algorithm</a>
 
 >**Axiom**:[Well-ordering Principle]
 >There is a smallest integer in every nonempty subset $C$ of $\mathbb{N}$ .
@@ -35,7 +35,7 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 >
 >1. $S(m)$ is true, and
 >2. $S(k)$ is true for all $k$ with $m\leq k < n$, then $S(n)$ is true,
-> 
+>
 > then $S(n)$ is true for all integers $n \geq m$ .
 
 >**Theorem**:[Division Algorithm]
@@ -43,7 +43,7 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 >Given integers $a$ and $b$ with $a \neq$ 0, there exist unique integers $q$ and r with $b=q a+r $ and $ 0 \leq r< \vert a\vert$
 >
 
-### <a name="2"> 2.Units and Primes</a>
+### <a name="2"> Units and Primes</a>
 
 >**Def** : We say that an integer $p$ is **irreducible** if it is not a unit, and if it has no factors other than $\pm 1, \pm p$.
 >
@@ -57,7 +57,7 @@ each integer $n \geq m,$ where $m$ is some fixed integer. If
 
 > **Thm**:[Fundamental Theorem of Arithmetic] Every integer other than zero and the units may be factored into primes in an essentially unique way.
 
-### <a name="3">3.GDC</a>
+### <a name="3">GDC</a>
 
 > **Def**: If a, b are integers then the **greatest common divisor (GCD)** of a and b, written (a, b), is the greatest positive integer d such that $d\mid a$ and $d\mid  b$.
 
@@ -86,7 +86,7 @@ We have the following facts.
 >
 > 
 
-### <a name= "4">4.Diophantine Equations</a>
+### <a name= "4">Diophantine Equations</a>
 
 > **Thm**: Suppose that $a, b, c$ are integers with $a, b \neq 0$. Then there is
 > a solution to the equation $am + bn = c$ in integers $m, n$ if and only if $ (a, b)|c.$
@@ -102,9 +102,7 @@ We have the following facts.
 
 > **Thm**: $x^4+y^4=z^4$没有正整数解。
 
- ###  <a name="5">5.Modular Arithmetic and $\mathbb{Z}/p\mathbb{Z}$</a>
-
-
+ ###  <a name="5">Modular Arithmetic</a>
 
 > **Def**: [Congruent]
 >
