@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'your awesome title'
+title: 'Cassis & Coco '
 description: 'Some notes for math'
-keywords: 'Math, algebra, analysis'
+keywords: 'Math, Machine Learning, Algorithm'
 url: 'https://sakuracassis.github.io' # your host
 
 # nav 中文字符空格：&emsp;
@@ -19,24 +19,24 @@ NickName: 'SakuraCassis'
 #webtitle: 'your awesome webtitle'
 #bio: 'your awesome bio'
 about: true
-aboutyou: '哈工大数学系'
+aboutyou: '不会数学的某算法工程师'
 portraits: '/assets/profile.jpeg' # your portraits image file path
 
 # SNS
 SNS: true
 SNS-icon: #['Facebook', 'weibo', 'qq', 'github', 'Dribbble', 'Twitter', 'instagram', 'weixin', 'Codepen']
-  #mail: 'mailto:abc@gmail.com'
+  mail: '1561659623@qq.com'
   #weixin: '' # 你的微信二维码存放的地址
-  #qq: 'http://wpa.qq.com/msgrd?v=3&uin='1561659623'&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
+  qq: 'http://wpa.qq.com/msgrd?v=3&uin='1561659623'&site=qq&menu=yes' # 你的qq二维码存放的地址 or http://wpa.qq.com/msgrd?v=3&uin='你的QQ号'&site=qq&menu=yes
   #github: ''
   #Codepen: ''
-  weibo: '啥我给忘了'
+  weibo: 'https://weibo.com/272244151'
   instagram: ''
   Twitter: ''
   #Dribbble: ''
   #Facebook: ''
   #Google: ''
-  zhihu: ''
+  zhihu: 'https://www.zhihu.com/people/huang-chen-48-67'
   #juejin: ''
   #twitch: ''
 
